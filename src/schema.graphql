@@ -4,6 +4,7 @@ type Query {
   person(id: ID!): Person!
 	film(id: ID!): Film!
 	films(first: Int!): [Film!]!
+	people(first: Int!): [Person!]!
 }
 
 type Person {
