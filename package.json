@@ -1,0 +1,23 @@
+{
+  "name": "nov19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "graphql-yoga": "^1.16.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronHatch92/learning-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CameronHatch92/learning-graphql/issues"
+  },
+  "homepage": "https://github.com/CameronHatch92/learning-graphql#readme"
+}
