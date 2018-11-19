@@ -2,6 +2,8 @@ type Query {
   info: String!
   packageName: String!
   person(id: ID!): Person!
+	film(id: ID!): Film!
+	films(first: Int!): [Film!]!
 }
 
 type Person {
@@ -14,4 +16,10 @@ type Person {
 	birth_year: String!,
 	gender: String!
   homeworld: String!
+}
+
+type Film {
+	title: String!,
+	episode_id: Int!,
+	opening_crawl: String!
 }
